@@ -4,6 +4,6 @@ def my_collect(collection)
   yield collection[1]
   i = i + 1 
 end
-return new_collection
+return collection
 end 
 
