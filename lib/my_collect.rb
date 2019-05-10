@@ -6,7 +6,6 @@ def my_collect(collection)
 
   i = i + 1 
 end
-yield.push
 return new_collection
 end 
 
